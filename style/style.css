@@ -21,15 +21,13 @@ body::before {
   display: block;
 }
 
-.header-container{
+.header-container {
   width: 736px;
   margin: auto;
 }
 
 header {
   width: 319px;
-  
-  
 }
 
 header h1 {
@@ -56,12 +54,61 @@ header p {
   margin: 0 auto;
   margin-top: 42px;
   padding: 64px;
-  
 
   width: 736px;
   height: 1430px;
-  
 
   background: #fafafc;
   border-radius: 8px 8px 0px 0px;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 1px solid #e6e6f0;
+  padding-bottom: 16px;
+}
+
+legend {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.input-text, .input-link  {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.input-text label, .input-link label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4958;
+}
+
+.input-text span, .input-link span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #c1bccc;
+  margin-left: 12px;
+}
+
+.input-text span:hover {
+  color: #828086;
+}
+
+.input-text input, .input-link input {
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  width: 608px;
+  height: 56px;
+  padding: 24px;
+
+}
+
+.input-link span:hover {
+  color: #828086;
 }
