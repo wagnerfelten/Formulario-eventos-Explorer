@@ -74,20 +74,33 @@ legend {
   line-height: 34px;
 }
 
-.input-text, .input-link, .whasst, .information {
+.input-text,
+.input-link,
+.whasst,
+.information,
+.category,
+.email {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
 }
 
-.input-text label, .input-link label, .whasst label, .information label {
+.input-text label,
+.input-link label,
+.whasst label,
+.information label,
+.category label,
+.email label {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #4e4958;
 }
 
-.input-text span, .input-link span, .whasst span {
+.input-text span,
+.input-link span,
+.whasst span,
+.email span {
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
@@ -99,14 +112,16 @@ legend {
   color: #828086;
 }
 
-.input-text input, .input-link input, .whasst input {
+.input-text input,
+.input-link input,
+.whasst input,
+.email input {
   background: #fafafc;
   border: 1px solid #e6e6f0;
   border-radius: 8px;
   width: 608px;
   height: 56px;
   padding: 24px;
-
 }
 
 .input-link span:hover {
@@ -117,10 +132,27 @@ legend {
   color: #828086;
 }
 
-.information textarea{
-  Width: 608px;
-Height: 168px;
-border: 1px solid #E6E6F0;
-background: #FAFAFC;
-padding: 10px;
+.email span:hover {
+  color: #828086;
+}
+
+
+.information textarea {
+  width: 608px;
+  height: 168px;
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+  padding: 10px;
+}
+
+.category select {
+  width: 608px;
+  height: 56px;
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  padding: 10px;
+  appearance: none;
+  background-image: url("data:image/svg+xml, %3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1_54)'%3E%3Cpath d='M8 10L12 14L16 10' stroke='%239C98A6' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_54'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: right 24px center;
 }
