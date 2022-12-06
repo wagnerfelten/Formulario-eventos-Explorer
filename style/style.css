@@ -74,20 +74,20 @@ legend {
   line-height: 34px;
 }
 
-.input-text, .input-link  {
+.input-text, .input-link, .whasst, .information {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
 }
 
-.input-text label, .input-link label {
+.input-text label, .input-link label, .whasst label, .information label {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #4e4958;
 }
 
-.input-text span, .input-link span {
+.input-text span, .input-link span, .whasst span {
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
@@ -99,7 +99,7 @@ legend {
   color: #828086;
 }
 
-.input-text input, .input-link input {
+.input-text input, .input-link input, .whasst input {
   background: #fafafc;
   border: 1px solid #e6e6f0;
   border-radius: 8px;
@@ -111,4 +111,16 @@ legend {
 
 .input-link span:hover {
   color: #828086;
+}
+
+.whasst span:hover {
+  color: #828086;
+}
+
+.information textarea{
+  Width: 608px;
+Height: 168px;
+border: 1px solid #E6E6F0;
+background: #FAFAFC;
+padding: 10px;
 }

@@ -32,7 +32,31 @@
           <label for="link-event">
             Link do evento<span>(comece com https://)</span>
           </label>
-          <input type="text" id="link-event" />
+          <input type="url" id="link-event" />
+        </div>
+
+        <div class="whasst">
+          <label for="whasst-event">
+            Whatsapp para contato<span>(somente números)</span>
+          </label>
+          <input type="tel" id="whasst-event" required placeholder="(xx) xxxxx-xxxx"/>
+        </div>
+
+        <div class="information">
+          <label for="information-event">
+            Informações  extras
+          </label>
+          <textarea name="" id="information-event" cols="50" rows="10"></textarea>
+        </div>
+
+        <div class="category">
+          <label for="category-event">
+            Categoria
+          </label>
+          <section id="category-event">
+              <option value="live">Live</option>
+              <option value="podecast">Podecast</option>
+          </section>
         </div>
 
       </fieldset>
