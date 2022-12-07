@@ -265,3 +265,7 @@ button {
 button:hover{
   background-color: #038f42;
 }
+
+input:invalid{
+  border: 1px solid red;
+}
